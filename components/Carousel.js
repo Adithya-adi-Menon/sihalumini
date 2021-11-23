@@ -6,11 +6,11 @@ import Swipe from "react-easy-swipe";
 const CarouselData = [
   {
     image:
-      "https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "https://cdn.discordapp.com/attachments/819847112988688414/912292802891755560/mic1.png",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1501446529957-6226bd447c46?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80",
+      "https://cdn.discordapp.com/attachments/819847112988688414/912599811549704232/poster1.png",
   },
   {
     image:
@@ -70,7 +70,7 @@ class Carousel extends Component {
   render() {
     return (
       <div className=" p-7 mb-7">
-        <div className="max-w-screen h-72 md:rounded-2xl rounded-2xl  flex items-center overflow-hidden relative md:ml-60">
+        <div className="max-w-screen h-72 md:rounded-2xl rounded-2xl  flex items-center overflow-hidden relative">
           <AiOutlineLeft
             onClick={this.prevSlide}
             className="absolute left-0 text-3xl inset-y-1/2 text-white cursor-pointer"

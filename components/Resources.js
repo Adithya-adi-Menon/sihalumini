@@ -6,9 +6,12 @@ export default function Resources() {
       <div class="ml-5 flex flex-wrap overflow-hidden mb-40">
         <div class="my-4 px-4 w-full overflow-hidden lg:w-1/3">
           {" "}
-          <a href="" class="flex flex-col p-2 bg-gray-300 rounded-xl">
+          <a
+            href="https://youtube.com/watch?v=8vdEyL7uKXs"
+            class="flex flex-col p-2 bg-gray-300 rounded-xl"
+          >
             <img
-              src="https://www.hyperui.dev/code/photos/shoe-1.jpeg"
+              src="https://cdn.discordapp.com/attachments/819847112988688414/912600516561862666/res1.jpg"
               alt=""
               class="w-full rounded-lg"
             />
@@ -18,7 +21,7 @@ export default function Resources() {
                 style={{ fontFamily: "Montserrat" }}
                 class="text-xl font-medium text-black"
               >
-                Resource name
+                National Innovation and Startup policy
               </h5>
               <span
                 style={{ fontFamily: "Montserrat" }}
@@ -34,7 +37,7 @@ export default function Resources() {
           {" "}
           <a href="" class="flex flex-col p-2 bg-gray-300 rounded-xl">
             <img
-              src="https://www.hyperui.dev/code/photos/shoe-1.jpeg"
+              src="https://cdn.discordapp.com/attachments/819847112988688414/912601148400218112/res2.jpg"
               alt=""
               class="w-full rounded-lg"
             />
@@ -44,7 +47,7 @@ export default function Resources() {
                 style={{ fontFamily: "Montserrat" }}
                 class="text-xl font-medium text-black"
               >
-                Resource name
+                Intellectual Property Management
               </h5>
               <span
                 style={{ fontFamily: "Montserrat" }}
@@ -60,7 +63,7 @@ export default function Resources() {
           {" "}
           <a href="" class="flex flex-col p-2 bg-gray-300 rounded-xl">
             <img
-              src="https://www.hyperui.dev/code/photos/shoe-1.jpeg"
+              src="https://media.discordapp.net/attachments/819847112988688414/912601148677038080/res3.jpg?width=1040&height=585"
               alt=""
               class="w-full rounded-lg"
             />
@@ -70,7 +73,7 @@ export default function Resources() {
                 style={{ fontFamily: "Montserrat" }}
                 class="text-xl font-medium text-black"
               >
-                Resource name
+                Idea, business model and business plan
               </h5>
               <span
                 style={{ fontFamily: "Montserrat" }}
@@ -86,7 +89,7 @@ export default function Resources() {
           {" "}
           <a href="" class="flex flex-col p-2 bg-gray-300 rounded-xl">
             <img
-              src="https://www.hyperui.dev/code/photos/shoe-1.jpeg"
+              src="https://cdn.discordapp.com/attachments/819847112988688414/912601463002386482/res4.jpg"
               alt=""
               class="w-full rounded-lg"
             />
@@ -96,7 +99,7 @@ export default function Resources() {
                 style={{ fontFamily: "Montserrat" }}
                 class="text-xl font-medium text-black"
               >
-                Resource name
+                Identifying problem & solution with double diamond approach
               </h5>
               <span
                 style={{ fontFamily: "Montserrat" }}

@@ -11,10 +11,10 @@ import EditProfile from "./EditProfile";
 import TeamQuestions from "./TeamQuestions";
 import ProjectComponentTabs from "./ProjectComponentTabs";
 import IndividualQuestions from "./IndividualQuestions";
-
+import FeedbackQuestions from "./FeedbackQuestions";
 
 class ProjectComponent extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.setCategoryType = this.setCategoryType.bind(this);
   }
@@ -23,67 +23,65 @@ class ProjectComponent extends Component {
     categorytypes: [
       {
         id: 1,
-        type: "Team Questions"
+        type: "Team Questions",
       },
       {
         id: 2,
-        type: "Individual Questions"
+        type: "Individual Questions",
       },
       {
         id: 3,
-        type: "Feedback"
+        type: "Feedback",
       },
     ],
     selectedcategorytype: 1,
   };
 
   setCategoryType(selectedtype) {
-    this.setState({ selectedcategorytype: selectedtype })
+    this.setState({ selectedcategorytype: selectedtype });
   }
 
-  render(){
-
+  render() {
     if (this.state.selectedcategorytype === 1) {
       return (
         <>
-        <ProjectComponentTabs 
-          categorytypes = {this.state.categorytypes}
-          selectedtype  = {this.setCategoryType}
-        />   
-        <TeamQuestions/>
+          <ProjectComponentTabs
+            categorytypes={this.state.categorytypes}
+            selectedtype={this.setCategoryType}
+          />
+          <TeamQuestions />
         </>
       );
-      
     }
     if (this.state.selectedcategorytype === 2) {
       return (
         <>
-        <ProjectComponentTabs 
-          categorytypes = {this.state.categorytypes}
-          selectedtype  = {this.setCategoryType}
-        /> 
-        <IndividualQuestions/>  
+          <ProjectComponentTabs
+            categorytypes={this.state.categorytypes}
+            selectedtype={this.setCategoryType}
+          />
+          <IndividualQuestions />
         </>
-      )
+      );
     }
     if (this.state.selectedcategorytype === 3) {
       return (
         <>
-        <ProjectComponentTabs 
-          categorytypes = {this.state.categorytypes}
-          selectedtype  = {this.setCategoryType}
-        />   
+          <ProjectComponentTabs
+            categorytypes={this.state.categorytypes}
+            selectedtype={this.setCategoryType}
+          />
+          <FeedbackQuestions />
         </>
-      )
-    }
-    else{
-      return(
+      );
+    } else {
+      return (
         <>
-        <ProjectComponentTabs 
-          categorytypes = {this.state.categorytypes}
-          selectedtype  = {this.setCategoryType}
-          // default = {this.state.selectedcategorytype}
-        />   
+          <ProjectComponentTabs
+            categorytypes={this.state.categorytypes}
+            selectedtype={this.setCategoryType}
+            // default = {this.state.selectedcategorytype}
+          />
         </>
       );
     }
