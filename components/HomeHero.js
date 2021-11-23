@@ -1,5 +1,4 @@
 import React from "react";
-
 import { WelcomeHero } from "./WelcomeHero";
 import News from "./News";
 import Stories from "./Stories";
