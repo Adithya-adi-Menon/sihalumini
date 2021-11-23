@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "./slider";
+// import Slider from "./slider";
 import { WelcomeHero } from "./WelcomeHero";
 import News from "./News";
 import Stories from "./Stories";
